@@ -1,0 +1,1 @@
+docker-compose run k6 run /tests/03-race/scenarios1.js

@@ -1,0 +1,1 @@
+sudo lsof -i -P -n | grep LISTEN && clear && sudo systemctl stop influxd && sudo lsof -i -P -n | grep LISTEN && clear
